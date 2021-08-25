@@ -30,3 +30,13 @@
 export default {
 }
 </script>
+
+<style scoped>
+.el-header,.el-main{
+  padding:0px !important;
+}
+.el-header{
+  height:70px !important;
+}
+
+</style>

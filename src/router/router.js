@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Find from '../views/Find.vue'
+import Recommend from '../component/Find/recommend.vue'
 const routes = [
   {
     path: '/',
@@ -8,7 +9,16 @@ const routes = [
     component: Home,
     children:[
       {
-        path:"/"
+        path:"/discover",
+        name:"Find",
+        component:Find,
+        children:[
+          {
+            path:"/discover",
+            name: 'Recommend',
+            component: Recommend
+          }
+        ]
       },
     ]
   }

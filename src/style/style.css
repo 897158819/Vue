@@ -1,5 +1,8 @@
 .home_header_nav {
     height: 70px !important;
-    background-color: red;
+    background-color: #242424;
     line-height: 70px;
+    color: #b2b2b2;
+}
+.Find{
 }
