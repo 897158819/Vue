@@ -5,6 +5,7 @@ import store from './store/store'
 import element from './element/elementIndex'
 import './style/base.css'
 import 'element-plus/lib/theme-chalk/index.css'
+import './style/style.css'
 createApp(App).use(store).use(router).use(element).mount('#app') 
 
 
