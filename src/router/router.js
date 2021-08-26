@@ -9,17 +9,19 @@ const routes = [
     component: Home,
     children:[
       {
-        path:"/discover",
+        path:"/",
+        alias:"/discover",
         name:"Find",
         component:Find,
         children:[
           {
-            path:"/discover",
-            name: 'Recommend',
-            component: Recommend
-          }
+            path:"/",
+            alias:"/discover",
+            name:"Recommend",
+            component:Recommend
+          },
         ]
-      },
+      }
     ]
   }
 ]
