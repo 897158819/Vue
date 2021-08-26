@@ -14,50 +14,29 @@
 
         </div>
         <div class="recommend_content">
-          <div class="recommend_hot">
-            <div class="hot_nav">
-              <div class="hot_title">热门推荐</div>
-              <ul>
-                <li><a href="">华语</a></li>
-                <li><a href="">流行</a></li>
-                <li><a href="">摇滚</a></li>
-                <li><a href="">民谣</a></li>
-              </ul>
+          <div class="recommend_content_left">
+            <div class="recommend_hot">
+              <div class="hot_nav">
+                <div class="hot_nav_title">热门推荐</div>
+                <div class="hot_nav_option"><a href="">华语</a></div>
+                <div class="hot_nav_option"><a href="">流行</a></div>
+                <div class="hot_nav_option"><a href="">民谣</a></div>
+                <div class="hot_nav_option"><a href="">摇滚</a></div>
+                <div class="hot_nav_option"><a href="">电子</a></div>
+                <div class="hot_nav_more"><a href="">更多</a></div>
+              </div>
+              <div class="hot_content">
+                <ul>
+                  <li>nihao</li>
+                  <li>nihao</li>
+                  <li>nihao</li>
+                  <li>nihao</li>
+                </ul>
+              </div>
             </div>
           </div>
+          <div class="recommend_content_right">
+          </div>
         </div>
-    </div>
+      </div>
 </template>
-
-<style scoped>
-.recommend{
-  width: 100%;
-  
-}
-.recommend_nav {
-  background-color: red;
-  height: 30px;
-  line-height: 30px;
-  font-size: 12px;
-}
-.recommend_nav ul {
-  width: 996px;
-  margin: 0 auto;
-  height: 30px;
-}
-.recommend_nav ul li{
-  float: left;
-  padding: 0 40px;
-  color: white;
-}
-.recommend_nav ul li:first-child{
-  margin-left: 30px;
-}
-.recommend_banner{
-  height: 252px;
-  /* background-color: yellow; */
-}
-.hot_title,.hot_nav ul li{
-  float: left;
-}
-</style>
