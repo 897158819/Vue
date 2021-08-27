@@ -43,22 +43,27 @@
 .recommend_content_left{
     width: 730px;
     display: inline-block;
+    box-sizing: border-box;
 }
-.recommend_content_left::after{
+/* .recommend_content_left::after{
     content: " ";
     display: block;
     width: 0px;
     height: 0px;
     clear: both;
-}
+} */
 .recommend_content_right{
     width: 254px;
     height: 10px;
     display: inline-block;
     background: yellow;
+    box-sizing: border-box;
 }
 
-.hot_nav{
+.recommend_hot_nav,
+.recommend_individuality_nav,
+.recommend_disc_nav,
+.recommend_list_nav{
     width: 730px;
     text-align: left;
     height: 34px;
@@ -67,19 +72,23 @@
     border-bottom:2px solid red;
     box-sizing: border-box;
 }
-.hot_nav_title,.hot_nav_option{
+.recommend_hot_nav_title,.recommend_hot_nav_option{
     display: inline-block;
 }
-.hot_nav_title{
+.recommend_hot_nav_title,
+.recommend_individuality_title,
+.recommend_disc_title,
+.recommend_list_title{
     font-size: 18px;
     padding:0 30px;
 }
-.hot_nav_option{
+
+.recommend_hot_nav_option{
     font-size: 12px;
     padding: 0 20px;
     color: #666;
 }
-.hot_nav div.hot_nav_option:not(:nth-child(2) ) {
+.recommend_hot_nav div.recommend_hot_nav_option:not(:nth-child(2) ) {
     border-left:1px solid #666;
 }
 .hot_nav_more{
@@ -89,10 +98,27 @@
     color: #666;
 }
 
-.hot_content ul li {
+.recommend_hot_content ul li,.recommend_individuality_content ul li {
     width: 150px;
-    height: 100px;
-    margin: 0 10px;
+    height: 150px;
+    margin: 20px 10px;
     background-color: black;
     float: left;
 }
+.recommend_hot_content::after,.recommend_individuality_content::after{
+    width: 0;
+    height: 0;
+    display: block;
+    content: " ";
+    clear: both;
+}
+.recommend_disc_content{
+    height: 80px;
+}
+
+.recommend_personInfo_image{
+    width: 20px;
+    height: 200px;
+    background-color: red;
+}
+
