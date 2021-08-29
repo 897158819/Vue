@@ -38,26 +38,21 @@
     width: 100%;
     margin: 0 auto;
     background-color: #f5f5f5;
-   
+    display: flex;
+    justify-content: center;
 }
 .recommend_content_left{
     width: 730px;
-    display: inline-block;
+    background-color: white;
+    border-left: 1px solid #e5e5e5;
     box-sizing: border-box;
 }
-/* .recommend_content_left::after{
-    content: " ";
-    display: block;
-    width: 0px;
-    height: 0px;
-    clear: both;
-} */
+
 .recommend_content_right{
     width: 254px;
-    height: 10px;
-    display: inline-block;
-    background: yellow;
     box-sizing: border-box;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
 }
 
 .recommend_hot_nav,
@@ -91,7 +86,7 @@
 .recommend_hot_nav div.recommend_hot_nav_option:not(:nth-child(2) ) {
     border-left:1px solid #666;
 }
-.hot_nav_more{
+.recommend_hot_nav_more{
     display: inline-block;
     margin-left:228px ;
     font-size: 12px;
@@ -101,7 +96,7 @@
 .recommend_hot_content ul li,.recommend_individuality_content ul li {
     width: 150px;
     height: 150px;
-    margin: 20px 10px;
+    margin: 20px 15px;
     background-color: black;
     float: left;
 }
@@ -115,10 +110,52 @@
 .recommend_disc_content{
     height: 80px;
 }
+.recommend_personInfo{
+    display: flex;
+    background-color: #f6f6f6;
+}
 
 .recommend_personInfo_image{
-    width: 20px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
     background-color: red;
 }
 
+.recommend_personInfo_name{
+    display: inline-block;
+    margin-top:20px;
+}
+.recommend_personInfo_logo{
+    display: inline-block; 
+}
+.recommend_personInfo_grade{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.recommend_personInfo_sign{
+    margin-top:20px;
+
+}
+.recommend_personInfo_sign button{
+    height: 30px;
+    width: 80px;
+}
+.test{
+    text-align: left;
+}
+.recommend_personInfo_dynamic,
+.recommend_personInfo_focus,
+.recommend_personInfo_fans{
+    /* display: flex; */
+    display: inline-block;
+}
+.recommend_personInfo_dynamic_count,
+.recommend_personInfo_dynamic_title,
+.recommend_personInfo_focus_count,
+.recommend_personInfo_focus_title,
+.recommend_personInfo_fans_count,
+.recommend_personInfo_fans_title{
+    /* width: 20px; */
+}

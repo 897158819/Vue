@@ -23,7 +23,7 @@
                 <div class="recommend_hot_nav_option"><a href="">民谣</a></div>
                 <div class="recommend_hot_nav_option"><a href="">摇滚</a></div>
                 <div class="recommend_hot_nav_option"><a href="">电子</a></div>
-                <div class="recommend_hot_nav_option"><a href="">更多</a></div>
+                <div class="recommend_hot_nav_more"><a href="">更多</a></div>
               </div>
               <div class="recommend_hot_content">
                 <ul>
@@ -71,9 +71,33 @@
           <div class="recommend_content_right">
             <div class="recommend_personInfo">
               <div class="recommend_personInfo_image">
-                <img src="" alt="">
+                <img src="" alt=""/>
               </div>
-              
+              <div class="recommend_personInfo_person">
+                <div class="recommend_personInfo_name">丿丶LAN</div>
+                <div class="recommend_personInfo_logo"><a href="">nihao</a></div>
+                <div class="recommend_personInfo_grade">Lv.7</div>
+                <div class="recommend_personInfo_sign">
+                  <button>签到</button>
+                </div>
+              </div>
+            </div>
+             <div class="test">
+                <div class="recommend_personInfo_dynamic">
+                  <div class="recommend_personInfo_dynamic_count">0</div>
+                  <div class="recommend_personInfo_dynamic_title">动态</div>
+                </div>
+                <div class="recommend_personInfo_focus">
+                  <div class="recommend_personInfo_focus_count">8</div>
+                  <div class="recommend_personInfo_focus_title">关注</div>
+                </div>
+                <div class="recommend_personInfo_fans">
+                  <div class="recommend_personInfo_fans_count">7</div>
+                  <div class="recommend_personInfo_fans_title">粉丝</div>
+                </div>
+              </div>
+            <div class="">
+
             </div>
           </div>
         </div>
