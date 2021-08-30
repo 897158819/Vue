@@ -121,7 +121,9 @@
     margin: 20px 20px;
     background-color: red;
 }
-
+.recomment_personInfo_nameORlogo{
+    width: 120px;
+}
 .recommend_personInfo_name{
     display: inline-block;
     margin-top:20px;
@@ -142,14 +144,16 @@
     height: 30px;
     width: 80px;
 }
-.test{
+.recommend_personInfo_data{
+    width: 100%;
     text-align: left;
+    background-color: #f6f6f6;
 }
 .recommend_personInfo_dynamic,
 .recommend_personInfo_focus,
 .recommend_personInfo_fans{
-    /* display: flex; */
     display: inline-block;
+    margin: 0px 20px;
 }
 .recommend_personInfo_dynamic_count,
 .recommend_personInfo_dynamic_title,
@@ -157,5 +161,6 @@
 .recommend_personInfo_focus_title,
 .recommend_personInfo_fans_count,
 .recommend_personInfo_fans_title{
-    /* width: 20px; */
+    width: 40px;
+    margin: 5px 0px;
 }
